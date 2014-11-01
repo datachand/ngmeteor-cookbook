@@ -1,4 +1,4 @@
-angular.module "app", ["ngMeteor"]
+angular.module "app", ["ngMeteor", "ngRoute"]
 
 Meteor.startup ->
   angular.bootstrap(document, ["app"])
